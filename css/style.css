@@ -27,7 +27,7 @@ body{ overflow-x:hidden;color:#333;-webkit-font-smoothing: antialiased;}
 /*字符截取*/
 .W-autocut{overflow: hidden;text-overflow: ellipsis;white-space: nowrap; word-wrap:normal;}
 /*input*/
-.W_input{border-width: 1px;border-style: solid;width: 248px;height: 25px;line-height: 25px;padding: 0 0 0 6px;vertical-align: middle;color: #333;font-size: 12px;background:rgba(238,238,238,1);outline-style: none;border-color: rgba(201,201,201,1);border-radius: 3px;}
+.W_input{border-width: 1px;border-style: solid;width: 248px;height: 25px;line-height: 25px;padding: 0 0 0 13px;vertical-align: middle;color: #333;font-size: 12px;background:rgba(238,238,238,1);outline-style: none;border-color: rgba(201,201,201,1);border-radius: 3px;}
 .W_input:focus,
 .M-input-search:focus{border-color: rgba(201,201,201,1); outline: none;}
 ::-webkit-input-placeholder{color: #999;} /* 使用webkit内核的浏览器 */
@@ -71,16 +71,19 @@ html{height: 100%;font-family: 'Arial','PingFang SC','Microsoft YaHei' !importan
 .body_flex{width: 100%; height: 100%; background: #fffbf4; overflow: hidden;}
 .body_flex .mod-main{position: relative;width: auto; height: 100%; z-index: 100;}
 .body_flex .M-left{ position: absolute; width: 50%; height: 100%;padding-bottom: 10000px; margin-bottom: -10000px; overflow: hidden; }
+.body_flex .M-left .pic{height: 100%; background: url(../images/login_bg.png); background-repeat: no-repeat; background-size: cover;}
+.body_flex .M-left .pic img{font-size: 0; display: block; width: 108px; height: 20px; padding: 45px 0 0 46px;}
+
 .body_flex .M-right{ width: auto; height: 100%; padding-left: 50%; padding-bottom: 10000px; margin-bottom: -10000px;}
 .body_flex .M-right .mod-box{position: relative; height: 100%;}
 .body_flex .M-right .mod-middle{position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);}
 
 .body_flex .header{text-align: center; font-size: 0; }
-.body_flex .header ul li{margin-bottom: 10px; line-height: 25px;}
+.body_flex .header ul li{margin-bottom: 20px; line-height: 25px;white-space: nowrap;}
 .body_flex .header ul li em,
 .body_flex .header ul li span{display: inline-block; font-size: 16px; color: #666;vertical-align: middle;}
 .body_flex .header ul li em{margin-right: 6px;}
-.body_flex .header p{position: relative; top: 8px;}
+/*.body_flex .header p{position: relative; top: 8px;}*/
 .body_flex .header p img{width: 237px; height: 9px;}
 
 .body_flex .content {padding-top: 20px;}
@@ -92,6 +95,50 @@ html{height: 100%;font-family: 'Arial','PingFang SC','Microsoft YaHei' !importan
 
 .body_flex .footer{text-align: center; margin-top: 35px;}
 .body_flex .footer a img{width: 69px; height: 30px;}
+
+/*测试*/
+.body_flex .mod-test .header h3{margin-bottom: 72px;}
+.body_flex .mod-test .header h3 img{width: 54px; height: 39px;}
+.body_flex .mod-test .footer a img{width: 90px; height: 30px;}
+.body_flex .mod-test .pic{height: 100%; background: url(../images/test_bg.png); background-repeat: no-repeat; background-size: cover;}
+.body_flex .mod-test .header ul li span{width: 256px;height: 25px; border-radius: 3px;position: relative;}
+
+.body_flex .mod-test .header ul li span .W_select{
+    border: 1px solid rgba(201,201,201,1);
+    background: rgba(238,238,238,1);
+    outline: none;
+    
+    width: 100%;
+    line-height:25px;
+    color: #828282;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+   
+    padding-left: 13px;
+    border-radius: inherit;
+}
+
+.body_flex .mod-test .header ul li span:after{
+content: "";
+width: 6px;
+height: 3px;
+background: url(../images/sel_down.jpg) no-repeat center;
+background-size: cover;
+/*//通过定位将图标放在合适的位置*/
+position: absolute;
+right: 15px;
+top: 48%;
+/*给自定义的图标实现点击下来功能*/
+pointer-events: none;
+}
+.body_flex .mod-test .header ul li span .W_input{width: 240px;}
+
+.body_flex .mod-test .header ul li .after:after{background: none;} 
+
+
+
+
 
 
 
