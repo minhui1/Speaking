@@ -106,12 +106,13 @@ html{height: 100%;font-family: 'Arial','PingFang SC','Microsoft YaHei' !importan
 .body_flex .content .mod-box h4{font-size: 12px;color:#797979; margin: 10px 0;}
 
 .body_flex .footer{text-align: center; margin-top: 35px;}
-.body_flex .footer a img{width: 69px; height: 30px;}
-
+.body_flex .footer .login_btn{ display: block; width: 69px; height: 30px; margin: 0 auto; cursor: pointer; background: url(../images/login_btn_default.png); background-repeat: no-repeat; background-size: cover;}
+.body_flex .footer .login_btn:hover{background: url(../images/login_btn.png);background-size: cover;cursor: pointer;}
 /*测试*/
 .body_flex .mod-test .header h3{margin-bottom: 72px;}
 .body_flex .mod-test .header h3 img{width: 54px; height: 39px;}
-.body_flex .mod-test .footer a img{width: 90px; height: 30px;}
+.body_flex .mod-test .footer .test_btn{ display: block; width: 90px; height: 30px; margin: 0 auto; background: url(../images/test_btn_default.png); background-repeat: no-repeat; background-size: cover;}
+.body_flex .mod-test .footer .test_btn:hover{background: url(../images/test_btn.png); background-repeat: no-repeat; background-size: cover;}
 .body_flex .mod-test .pic{height: 100%; background: url(../images/test_bg.png); background-repeat: no-repeat; background-size: cover;}
 .body_flex .mod-test .header ul li span{width: 256px;height: 25px; border-radius: 3px;position: relative;}
 .body_flex .mod-test .header ul li span .W_select{border: 1px solid rgba(201,201,201,1);background: rgba(238,238,238,1);outline: none;width: 100%;line-height:25px;color: #828282;appearance: none;-webkit-appearance: none;-moz-appearance: none;padding-left: 13px;border-radius: inherit;}
@@ -121,8 +122,8 @@ html{height: 100%;font-family: 'Arial','PingFang SC','Microsoft YaHei' !importan
 
 /*得分*/
 .body_flex .mod-score .pic{height: 100%; background: url(../images/score_bg.png); background-repeat: no-repeat; background-size: cover;}
-.body_flex .mod-score .footer a img{width: 90px; height: 30px;}
-
+.body_flex .mod-score .footer .score_btn{ display: block; width: 69px; height: 30px; margin: 0 auto; background: url(../images/score_btn_default.png);background-repeat: no-repeat; background-size: cover;}
+.body_flex .mod-score .footer .score_btn:hover{ background: url(../images/score_btn.png);background-repeat: no-repeat; background-size: cover;}
 .body_flex .mod-score .header{width: 395px; height: 264px; background: url(../images/score_border.png) no-repeat;background-size: cover;}
 .body_flex .mod-score .header h3{padding-top: 45px;}
 .body_flex .mod-score .header h3 img{width: 81px; height: 15px;}
@@ -162,7 +163,7 @@ html{height: 100%;font-family: 'Arial','PingFang SC','Microsoft YaHei' !importan
 .body_test .mod-box .M-content ul li span{ font-size: 12px; line-height: 20px; color: #787878;}
 .body_test .mod-box .M-content ul li b{color: #ED6C00; font-weight: normal;}
 .body_test .mod-box .M-content ul li img{ display: block; font-size: 0; width: 106px; height: 68px;}
-.body_test .mod-box .M-content .mod-btn{text-align: center;margin-top: -30px;}
+.body_test .mod-box .M-content .mod-btn{text-align: center;margin-top: -24px;}
 .body_test .mod-box .M-content .mod-btn .info{display: inline-block; vertical-align: middle;}
 .body_test .mod-box .M-content .mod-btn .info-a{}
 .body_test .mod-box .M-content .mod-btn .info-a span,
@@ -170,7 +171,7 @@ html{height: 100%;font-family: 'Arial','PingFang SC','Microsoft YaHei' !importan
 .body_test .mod-box .M-content .mod-btn .info-a span em,
 .body_test .mod-box .M-content .mod-btn .info-c span em{ position: absolute; top: 0; left: 0; height: 3px; border-radius: 2px; background: #FBC200 }
 .body_test .mod-box .M-content .mod-btn .info-b{}
-.body_test .mod-box .M-content .mod-btn .info-c{}
+.body_test .mod-box .M-content .mod-btn .info-c{ position: relative; }
 .body_test .mod-box .M-content .mod-btn .info-b {}
 
 .icon{ display: inline-block;  background: url(../images/icon.png) no-repeat; background-size: 65.5px auto; vertical-align: middle;}
@@ -181,16 +182,43 @@ html{height: 100%;font-family: 'Arial','PingFang SC','Microsoft YaHei' !importan
 
 .icon_play{background-position: 0 -53px;}
 .icon_play:hover{background-position: 0 0;}
-.icon_tape{background-position: 0 -105px;}
-.icon_tape:hover{background-position: 0 -178px;}
+.icon_tape{background-position: 0 -178px;}
+.icon_tape:hover{background-position: 0 -105px;}
 .icon_me_tape{background-position: 0 -304px;}
 .icon_me_tape:hover{background-position: 0 -252.5px;}
 
-
 .body_test .mod-box .M-footer{text-align: center; margin-top: 45px;}
-.body_test .mod-box .M-footer img{width: 90px; height: 30px;}
+.body_test .mod-box .M-footer .test_btn{ display: block; width: 90px; height: 30px; margin: 0 auto; background: url(../images/test_btn_default.png); background-repeat: no-repeat; background-size: cover;}
+.body_test .mod-box .M-footer .test_btn:hover{background: url(../images/test_btn.png); background-repeat: no-repeat; background-size: cover;}
 
+/*测试题*/
+.body_test .mod-answer .mod-box .M-content p{ padding: 20px 0 0 47px; color: #727272; font-size: 12px;}
+.body_test .mod-answer .mod-box .M-content span{margin-left: 18px;}
+.body_test .mod-answer .mod-box .M-content span em{display: inline-block; width: 15px; height: 16px; line-height: 16px; background: #F39800; margin-right: 2px; text-align: center; color: #fff;}
+.body_test .mod-answer .mod-box .M-content .mod-text{ position: relative; height: 100%; text-align: center;}
+.body_test .mod-answer .mod-box .M-content .mod-text p{ position: absolute; top: 30%;left: 43%;font-size: 20px;color: #666666;transform: translate(-50%,-50%);}
+.body_test .mod-answer .mod-box .M-content .mod-btn{ position: relative; z-index: 11; text-align: left;margin-top: -102px;}
+.body_test .mod-answer .mod-box .M-content .mod-btn .info-b{margin-left: 28px;}
+.body_test .mod-answer .mod-box .M-content .mod-btn .info-c span{width: 445px; margin-left: 6px;}
+.body_test .mod-answer .mod-box .M-content .mod-btn .info-c b{position: absolute; top: -8px; left: 0; font-size: 12px; font-weight: normal; color: #8A8A8A; transform: scale(.8,.8);}
+.body_test .mod-answer .mod-box .M-footer .answer_btn{display: block; width: 90px; height: 30px; margin: 0 auto; background: url(../images/answer_btn_default.png); background-repeat: no-repeat; background-size: cover;}
+.body_test .mod-answer .mod-box .M-footer .answer_btn:hover{background: url(../images/answer_btn.png); background-repeat: no-repeat; background-size: cover;}
 
+/*tips*/
+.body_test .mod-answer .mod-box .M-content .mod-text .tips{position: absolute;top: 35%;left: 50%;color: #666666;transform: translate(-50%,-50%);}
+.body_test .mod-answer .mod-box .M-content .mod-text .tips .mod-box{width:244px;height:34px;background:rgba(234,97,43,1);border-radius:5px;}
+.body_test .mod-answer .mod-box .M-content .mod-text .tips span{display: inline-block;white-space: nowrap;line-height: 34px;}
+.body_test .mod-answer .mod-box .M-content .mod-text .tips b,
+.body_test .mod-answer .mod-box .M-content .mod-text .tips i{display: inline-block;vertical-align: middle;}
+.body_test .mod-answer .mod-box .M-content .mod-text .tips b img{width: 9px; height: 13px;}
+.body_test .mod-answer .mod-box .M-content .mod-text .tips i{font-size: 12px; color: #fff;margin-left: -16px;transform: scale(.8,.8);}
+/*遮罩*/
+.M-layer-black-bg{position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgb(0, 0, 0); opacity: 0.5; z-index: 9;}
+.M-layer{position: absolute; z-index: 12; top: 50%; left: 50%; transform: translate(-50%,-50%);}
+.M-layer span{display: block; font-size: 33px; color: #FFC500; margin-bottom: 15px;text-align: center;}
+.M-layer p span{ position: relative; display: inline-block; width:538px;height:4px;background:rgba(68,68,68,0.53);border-radius:2px;}
+.M-layer p span em{position: absolute; left: 0; top: 0; height: 4px;background:rgba(255,197,0,1);border-radius:2px;}
+.M-layer h4{text-align: center;font-size: 15px; color: #FFFAE9; font-weight: normal;}
 
 
 
