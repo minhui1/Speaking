@@ -27,7 +27,7 @@ body{ overflow-x:hidden;color:#333;-webkit-font-smoothing: antialiased;}
 /*字符截取*/
 .W-autocut{overflow: hidden;text-overflow: ellipsis;white-space: nowrap; word-wrap:normal;}
 /*input*/
-.W_input{border-width: 1px;border-style: solid;width: 248px;height: 25px;line-height: 25px;padding: 0 0 0 13px;vertical-align: middle;color: #333;font-size: 12px;background:rgba(238,238,238,1);outline-style: none;border-color: rgba(201,201,201,1);border-radius: 3px;}
+.W_input{border-width: 1px;border-style: solid;width: 248px;height: 23px;line-height: 23px;padding: 0 0 0 13px;vertical-align: middle;color: #333;font-size: 12px;background:rgba(238,238,238,1);outline-style: none;border-color: rgba(201,201,201,1);border-radius: 3px;}
 .W_input:focus,
 .M-input-search:focus{border-color: rgba(201,201,201,1); outline: none;}
 ::-webkit-input-placeholder{color: #999;} /* 使用webkit内核的浏览器 */
@@ -111,9 +111,9 @@ html{height: 100%;font-family: 'Arial','PingFang SC','Microsoft YaHei' !importan
 .body_flex .mod-test .footer .test_btn:hover{background: url(../images/test_btn.png); background-repeat: no-repeat; background-size: cover;}
 .body_flex .mod-test .pic{height: 100%; background: url(../images/test_bg.png); background-repeat: no-repeat; background-size: cover;}
 .body_flex .mod-test .header ul li span{width: 256px;height: 25px; border-radius: 3px;position: relative;}
-.body_flex .mod-test .header ul li span .W_select{border: 1px solid rgba(201,201,201,1);background: rgba(238,238,238,1);outline: none;width: 100%;line-height:25px;color: #828282;appearance: none;-webkit-appearance: none;-moz-appearance: none;-ms-appearance: none;padding-left: 13px;border-radius: inherit;}
+.body_flex .mod-test .header ul li span .W_select{border: 1px solid rgba(201,201,201,1);background: rgba(238,238,238,1);outline: none;width: 100%; height: 100%;font-size: 13px;line-height: 23px;color: #828282;appearance: none;-webkit-appearance: none;-moz-appearance: none;-ms-appearance: none;padding-left: 13px;border-radius: inherit;}
 .body_flex .mod-test .header ul li span:after{content: "";width: 6px;height: 3px;background: url(../images/sel_down.jpg) no-repeat center;background-size: cover;position: absolute;right: 15px;top: 48%;pointer-events: none;}
-.body_flex .mod-test .header ul li span .W_input{width: 240px;}
+.body_flex .mod-test .header ul li span .W_input{width: 240px;height: 23px;line-height: 23px;}
 .body_flex .mod-test .header ul li .after:after{background: none;} 
 
 /*得分*/
