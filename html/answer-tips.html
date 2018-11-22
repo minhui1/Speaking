@@ -7,16 +7,16 @@
 	<link rel="stylesheet" href="../css/style.css">
 	<script src="../script/jquery.min.js"></script>
 	<script>
-		function fontSize() {
-	        var w = $(window).width();
-	        if(w<=1100){
-			   return;
-		    }
-	        w = w > 1920 ? 1920 : w;
-	        $("html").css("fontSize", w / 19.2 + "px");
-	    }
-	    fontSize();
-	    window.onresize = fontSize;
+	function fontSize() {
+        var w = $(window).width();
+        w = w > 1920 ? 1920 : w;
+        $("html").css("fontSize", w / 19.2 + "px");
+		  if(w<=1200){
+		   $("html").css("fontSize", 1200 / 19.2 + "px");
+		  }
+    }
+    fontSize();
+    window.onresize = fontSize;
 	</script>
 </head>
 <body class="body_test">
