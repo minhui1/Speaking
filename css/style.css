@@ -61,11 +61,11 @@ html{height: 100%; font-size: 100px; font-family: 'Arial','PingFang SC','Microso
 .body_index .M-footer .mod-box-two{overflow: hidden;}
 .body_index .M-footer .W-lf,
 .body_index .M-footer .W-rg{float: left; }
-.body_index .M-footer .mod-box-one .W-lf em{position: relative; top: 0.17rem;}
-.body_index .M-footer .W-lf{font-size: 0.16rem; color: #666;}
+.body_index .M-footer .mod-box-one .W-lf em{position: relative; top: 0.16rem;}
+.body_index .M-footer .W-lf{font-size: 0.14rem; color: #666;}
 .body_index .M-footer .W-lf span{position: relative; margin: 0 0.14rem;}
 .body_index .M-footer .mod-box-one .W-lf span::before{position: absolute; content: ''; right: 0; top: 0; width: 1px; height: 270%; background: #B5B5B5;-webkit-transform: scale(.8,.8); -moz-transform: scale(.8,.8); -ms-transform: scale(.8,.8); -o-transform: scale(.8,.8);transform: scale(.8,.8);} 
-.body_index .M-footer .W-rg{font-size: 0.16rem; color: #666;}
+.body_index .M-footer .W-rg{font-size: 0.14rem; color: #666;}
 .body_index .M-footer dl{text-align: left;}
 .body_index .M-footer dl a{color: #666;}
 .body_index .M-footer dl dt,
