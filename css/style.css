@@ -56,23 +56,24 @@ html{height: 100%;font-family: 'Arial','PingFang SC','Microsoft YaHei' !importan
 .body_index .M-content .mod-pic p{ font-size: 15px; color: #fff; margin-top: 8px;}
 .body_index .M-content h3{height: 28px; font-size: 30px; line-height: 24px; margin-top: 40px;}
 .body_index .M-content p{font-size: 14px; line-height: 30px; margin-top: 6px;}
-.body_index .M-footer{ position: absolute; bottom: 70px; left: 50.6%; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); font-size: 0; text-align: center;  }
+.body_index .M-footer{ position: absolute; bottom: 70px; left: 50.9%; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); font-size: 0; text-align: center;  }
 .body_index .M-footer .mod-box-one,
 .body_index .M-footer .mod-box-two{overflow: hidden;}
 .body_index .M-footer .W-lf,
-.body_index .M-footer .W-rg{float: left;}
+.body_index .M-footer .W-rg{float: left;transform: scale(.8,.8);}
 .body_index .M-footer .mod-box-one .W-lf em{position: relative; top: 10px;}
 .body_index .M-footer .W-lf{font-size: 12px; color: #666;}
 .body_index .M-footer .W-lf span{position: relative; margin: 0 7px;}
 .body_index .M-footer .mod-box-one .W-lf span::before{position: absolute; content: ''; right: 0; top: 5px; width: 1px; height: 26px; background: #B5B5B5;} 
-.body_index .M-footer .W-rg{font-size: 12px; color: #666;}
+.body_index .M-footer .W-rg{font-size: 12px; color: #666;margin-left: -10%;}
 .body_index .M-footer dl{text-align: left;}
 .body_index .M-footer dl a{color: #666;}
 .body_index .M-footer dl dt,
 .body_index .M-footer dl dd{display: inline-block; text-align: left; vertical-align: middle;}
 .body_index .M-footer dl dt{margin:0 3px 0 0;}
-.body_index .M-footer .mod-box-two{margin-top: 7px}
+/*.body_index .M-footer .mod-box-two{margin-top: 7px}*/
 .body_index .M-footer .mod-box-two .W-lf span::before{position: absolute; content: ''; right: 0; top: 2px; width: 1px; height: 11px; background: #B5B5B5;} 
+.body_index .M-footer .mod-box-two dl dd{margin-left: 4px;}
 .body_index .M-footer .list-A img{width: 14px; height: 6px;vertical-align: 1px;}
 .body_index .M-footer .list-B img{width: 12px; height: 12px; vertical-align: -1px;}
 
