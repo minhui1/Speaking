@@ -60,7 +60,7 @@ html{height: 100%;font-family: 'Arial','PingFang SC','Microsoft YaHei' !importan
 .body_index .M-footer .mod-box-one,
 .body_index .M-footer .mod-box-two{overflow: hidden;}
 .body_index .M-footer .W-lf,
-.body_index .M-footer .W-rg{float: left;transform: scale(.8,.8);}
+.body_index .M-footer .W-rg{float: left; -webkit-transform: scale(.8,.8); -moz-transform: scale(.8,.8); -ms-transform: scale(.8,.8); -o-transform: scale(.8,.8); transform: scale(.8,.8);}
 .body_index .M-footer .mod-box-one .W-lf em{position: relative; top: 10px;}
 .body_index .M-footer .W-lf{font-size: 12px; color: #666;}
 .body_index .M-footer .W-lf span{position: relative; margin: 0 7px;}
@@ -71,7 +71,6 @@ html{height: 100%;font-family: 'Arial','PingFang SC','Microsoft YaHei' !importan
 .body_index .M-footer dl dt,
 .body_index .M-footer dl dd{display: inline-block; text-align: left; vertical-align: middle;}
 .body_index .M-footer dl dt{margin:0 3px 0 0;}
-/*.body_index .M-footer .mod-box-two{margin-top: 7px}*/
 .body_index .M-footer .mod-box-two .W-lf span::before{position: absolute; content: ''; right: 0; top: 1px; width: 1px; height: 11px; background: #B5B5B5;} 
 .body_index .M-footer .mod-box-two dl dd{margin-left: 4px;}
 .body_index .M-footer .list-A img{width: 14px; height: 6px;vertical-align: 1px;}
