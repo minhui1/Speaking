@@ -48,33 +48,33 @@ html{height: 100%; font-size: 100px; font-family: 'Arial','PingFang SC','Microso
 /*首页*/
 .body_index{ width: 100%; height: 100%;background: url(../images/body_bg.png); background-size: cover; background-repeat: no-repeat; overflow: hidden;}
 .body_index .mod-main{ position: relative; height: 100%; min-width: 620px; }
-.body_index .M-header{width: 2.16rem; height: 0.39rem; position: relative; top: 0.9rem; left: 0.96rem;z-index: 2;}
-.body_index .M-header img{font-size: 0; display: block; width: 2.16rem; height: 0.39rem;}
+.body_index .M-header{width: 2.14rem; height: 0.37rem; position: relative; top: 0.88rem; left: 0.94rem;z-index: 2;}
+.body_index .M-header img{font-size: 0; display: block; width: 2.14rem; height: 0.37rem;}
 .body_index .M-content{ text-align: center; font-size: 0; color: #fff; width: 100%; position: absolute;top: 48%;-webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -o-transform: translateY(-50%); -ms-transform: translateY(-50%);  transform: translateY(-50%);}
 .body_index .M-content .mod-pic{font-size: 0;display: inline-block;}
-.body_index .M-content .mod-pic img{width: 1.2rem; height: 1.2rem;}
-.body_index .M-content .mod-pic p{ font-size: 0.3rem; color: #fff; margin-top: 0.16rem;}
-.body_index .M-content h3{height: 0.56rem; font-size: 0.6rem; line-height: 0.48rem; margin-top: 0.8rem;}
-.body_index .M-content p{font-size: 0.28rem; line-height: 0.6rem; margin-top: 0.12rem;}
-.body_index .M-footer{ position: absolute; bottom: 1.18rem; left: 50.9%; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); font-size: 0; text-align: center;  }
+.body_index .M-content .mod-pic img{width: 1.18rem; height: 1.18rem;}
+.body_index .M-content .mod-pic p{ font-size: 0.28rem; color: #fff; margin-top: 0.14rem;}
+.body_index .M-content h3{height: 0.54rem; font-size: 0.58rem; line-height: 0.46rem; margin-top: 0.78rem;}
+.body_index .M-content p{font-size: 0.26rem; line-height: 0.4rem; margin-top: 0.10rem;}
+.body_index .M-footer{ position: absolute; bottom: 1.16rem; left: 50.9%; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); font-size: 0; text-align: center;  }
 .body_index .M-footer .mod-box-one,
 .body_index .M-footer .mod-box-two{overflow: hidden;}
 .body_index .M-footer .W-lf,
 .body_index .M-footer .W-rg{float: left; }
-.body_index .M-footer .mod-box-one .W-lf em{position: relative; top: 0.17rem;}
+.body_index .M-footer .mod-box-one .W-lf em{position: relative; top: 0.15rem;}
 .body_index .M-footer .W-lf{font-size: 0.14rem; color: #666;}
 .body_index .M-footer .W-lf span{position: relative; margin: 0 0.14rem;}
-.body_index .M-footer .mod-box-one .W-lf span::before{position: absolute; content: ''; right: 0; top: 0; width: 1px; height: 270%; background: #B5B5B5;-webkit-transform: scale(.8,.8); -moz-transform: scale(.8,.8); -ms-transform: scale(.8,.8); -o-transform: scale(.8,.8);transform: scale(.8,.8);} 
+.body_index .M-footer .mod-box-one .W-lf span::before{position: absolute; content: ''; right: 0; top: 0; width: 1px; height: 240%; background: #B5B5B5;-webkit-transform: scale(.8,.8); -moz-transform: scale(.8,.8); -ms-transform: scale(.8,.8); -o-transform: scale(.8,.8);transform: scale(.8,.8);} 
 .body_index .M-footer .W-rg{font-size: 0.14rem; color: #666;}
 .body_index .M-footer dl{text-align: left;}
 .body_index .M-footer dl a{color: #666;}
 .body_index .M-footer dl dt,
 .body_index .M-footer dl dd{display: inline-block; text-align: left; vertical-align: middle;}
 .body_index .M-footer dl dt{margin:0 3px 0 0;}
-.body_index .M-footer .mod-box-two{margin-top: 0.1rem;}
+.body_index .M-footer .mod-box-two{margin-top: 0.08rem;}
 .body_index .M-footer .mod-box-two .W-lf span::before{position: absolute; content: ''; right: 0; top: 0; width: 1px; height: 100%; background: #B5B5B5;-webkit-transform: scale(.8,.8); -moz-transform: scale(.8,.8); -ms-transform: scale(.8,.8); -o-transform: scale(.8,.8);transform: scale(.8,.8);} 
-.body_index .M-footer .list-A img{width: 0.27rem; height: 0.11rem;vertical-align: 1px;}
-.body_index .M-footer .list-B img{width: 0.24rem; height: 0.24rem; vertical-align: -1px;}
+.body_index .M-footer .list-A img{width: 0.25rem; height: 0.09rem;vertical-align: 1px;}
+.body_index .M-footer .list-B img{width: 0.22rem; height: 0.22rem; vertical-align: -1px;}
 
 /*登录*/
 .body_flex{width: 100%; height: 100%; background: #fffbf4; overflow: hidden;}
