@@ -55,7 +55,7 @@ html{height: 100%; font-size: 100px; font-family: 'Arial','PingFang SC','Microso
 .body_index .M-content .mod-pic img{width: 1.18rem; height: 1.18rem;}
 .body_index .M-content .mod-pic p{ font-size: 0.28rem; color: #fff; margin-top: 0.14rem;}
 .body_index .M-content h3{height: 0.54rem; font-size: 0.58rem; line-height: 0.46rem; margin-top: 0.78rem;}
-.body_index .M-content p{font-size: 0.26rem; line-height: 0.4rem; margin-top: 0.10rem;}
+.body_index .M-content p{font-size: 0.26rem; line-height: 0.4rem; margin-top: 0.12rem;}
 .body_index .M-footer{ position: absolute;top: 83%; left: 50.9%; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); font-size: 0; text-align: center;  }
 .body_index .M-footer .mod-box-one,
 .body_index .M-footer .mod-box-two{overflow: hidden;}
