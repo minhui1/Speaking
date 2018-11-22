@@ -9,8 +9,12 @@
 	<script>
 		function fontSize() {
 	        var w = $(window).width();
+	        if(w<=1100){
+			   return;
+		    }
 	        w = w > 1920 ? 1920 : w;
 	        $("html").css("fontSize", w / 19.2 + "px");
+
 	    }
 	    fontSize();
 	    window.onresize = fontSize;
