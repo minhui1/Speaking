@@ -97,9 +97,9 @@ html{height: 100%; font-size: 100px; font-family: 'Arial','PingFang SC','Microso
 .body_flex .content {padding-top: 0.28rem;}
 .body_flex .content h3{font-size: 0.26rem; color: #666; margin-bottom:0.2rem;}
 .body_flex .content .mod-box{width:7.63rem;height:4.04rem; padding: 0.38rem 0.08rem 0.31rem 0.38rem;  background:rgba(242,241,239,1); overflow: hidden; }
-.body_flex .content .mod-box p{font-size: 0.16rem; color:#797979; line-height: 0.36rem;}
+.body_flex .content .mod-box p{font-size: 0.18rem; color:#797979; line-height: 0.36rem;}
 .body_flex .content .mod-box .mod-scroll{height:4.04rem; padding-right: 0.18rem; overflow-y: auto;}
-.body_flex .content .mod-box h4{font-size: 0.16rem;color:#797979; margin: 0.2rem 0;}
+.body_flex .content .mod-box h4{font-size: 0.18rem;color:#797979; margin: 0.2rem 0;}
 
 .body_flex .footer{text-align: center; margin-top: 0.68rem;}
 .body_flex .footer .login_btn{ display: block; width: 1.36rem; height:0.58rem; margin: 0 auto; cursor: pointer; background: url(../images/login_btn_default.png); background-repeat: no-repeat; background-size: cover;}
@@ -132,7 +132,7 @@ html{height: 100%; font-size: 100px; font-family: 'Arial','PingFang SC','Microso
 .body_flex .mod-score .header .mod-txt span,
 .body_flex .mod-score .header .mod-txt strong{display: inline-block; vertical-align: middle;}
 .body_flex .mod-score .header .mod-txt b{font-size: 0.28rem;color: #616161;}
-.body_flex .mod-score .header .mod-txt em{color: #7A7A7A; font-size: 0.16rem; vertical-align: -8px; margin: 0 12px 0 8px;}
+.body_flex .mod-score .header .mod-txt em{color: #7A7A7A; font-size: 0.16rem; vertical-align: text-top; margin: -4px 12px 0 8px;}
 .body_flex .mod-score .header .mod-txt .m-font-number{font-size: 1.38rem; color: #F39800;}
 .body_flex .mod-score .header .mod-txt strong{margin-left: 12px; font-size: 0.28rem; font-weight: normal; font-style: normal; color: #797979;}
 .body_flex .mod-score .header .mod-txt span{position:relative;}
@@ -164,13 +164,14 @@ html{height: 100%; font-size: 100px; font-family: 'Arial','PingFang SC','Microso
 .body_test .mod-box .M-content ul li img{ display: block; font-size: 0; width: 2.1rem; height: 1.31rem;}
 .body_test .mod-box .M-content .mod-btn{text-align: center; position: relative; top: -4px; -moz-transform: translateY(-5px);}
 .body_test .mod-box .M-content .mod-btn .info{display: inline-block; vertical-align: middle;}
+.body_test .mod-box .M-content .mod-btn .info-a{margin-left: 18px;}
 .body_test .mod-box .M-content .mod-btn .info-a span,
-.body_test .mod-box .M-content .mod-btn .info-c span{ position: relative; display: inline-block;width: 3.2rem; height: 0.06rem; background: #D9D8D6; border-radius: 3px; vertical-align: middle;}
+.body_test .mod-box .M-content .mod-btn .info-c span{ position: relative; display: inline-block;width: 3.2rem; height: 0.06rem; background: #D9D8D6; border-radius: 3px; vertical-align: middle; margin-top: 10px;}
 .body_test .mod-box .M-content .mod-btn .info-a span em,
 .body_test .mod-box .M-content .mod-btn .info-c span em{ position: absolute; top: 0; left: 0; height: 0.06rem; border-radius: 3px; background: -webkit-linear-gradient(90deg,rgba(237,108,0,1),rgba(251,194,0,1)); background: -moz-linear-gradient(90deg,rgba(237,108,0,1),rgba(251,194,0,1)); background: -ms-linear-gradient(90deg,rgba(237,108,0,1),rgba(251,194,0,1)); background: linear-gradient(90deg,rgba(237,108,0,1),rgba(251,194,0,1)); }
-.body_test .mod-box .M-content .mod-btn .info-c{ position: relative; }
+.body_test .mod-box .M-content .mod-btn .info-c{ position: relative; left: -18px; }
 
-.icon{ display: inline-block; margin-left: -0.2rem; vertical-align: -25px;}
+.icon{ display: inline-block; margin-left: -0.2rem; vertical-align: -32px;}
 .icon_play,
 .icon_me_tape{ width: 0.93rem; height: 0.95rem; cursor: pointer; overflow: hidden; }
 .icon_tape{width: 1.31rem; height: 1.37rem; vertical-align: middle;}
@@ -194,12 +195,10 @@ html{height: 100%; font-size: 100px; font-family: 'Arial','PingFang SC','Microso
 .body_test .mod-answer .mod-box .M-content .mod-text{ position: relative; height: 100%; text-align: center;}
 .body_test .mod-answer .mod-box .M-content .mod-text p{ position: absolute; top: 30%;left: 43%;font-size: 0.38rem;color: #666666; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%);}
 .body_test .mod-answer .mod-box .M-content .mod-btn{ position: relative; z-index: 11; text-align: left;margin-top: -18.2%;-moz-transform: translateY(-2px);}
-.body_test .mod-answer .mod-box .M-content .mod-btn .info-b{/*margin-left: 44px;*/position: absolute;
-    left: 44px;
-    top: 0px;}
-.body_test .mod-answer .mod-box .M-content .mod-btn .info-c{margin-left: 120px; margin-top: -5px;}
+.body_test .mod-answer .mod-box .M-content .mod-btn .info-b{position: absolute;left: 0.66rem;top: 0;}
+.body_test .mod-answer .mod-box .M-content .mod-btn .info-c{margin-left: 2.0rem; }
 .body_test .mod-answer .mod-box .M-content .mod-btn .info-c span{width: 8.88rem; margin-left: 6px; margin-top: 11px;}
-.body_test .mod-answer .mod-box .M-content .mod-btn .info-c b{position: absolute; top: 33%; left: 6px; font-size: 0.14rem; font-weight: normal; color: #8A8A8A; }
+.body_test .mod-answer .mod-box .M-content .mod-btn .info-c b{position: absolute; top: 33%; left: 6px; font-size: 0.16rem; font-weight: normal; color: #8A8A8A; }
 .body_test .mod-answer .mod-box .M-footer .answer_btn{display: block; width: 1.78rem; height: 0.58rem; margin: 0 auto; background: url(../images/answer_btn_default.png); background-repeat: no-repeat; background-size: cover;}
 .body_test .mod-answer .mod-box .M-footer .answer_btn:hover{background: url(../images/answer_btn.png); background-repeat: no-repeat; background-size: cover;}
 
@@ -209,7 +208,7 @@ html{height: 100%; font-size: 100px; font-family: 'Arial','PingFang SC','Microso
 .body_test .mod-answer .mod-box .M-content .mod-text .tips span{display: inline-block;white-space: nowrap; margin-left: 0;}
 .body_test .mod-answer .mod-box .M-content .mod-text .tips b,
 .body_test .mod-answer .mod-box .M-content .mod-text .tips i{display: inline-block;vertical-align: middle;}
-.body_test .mod-answer .mod-box .M-content .mod-text .tips b img{width: 0.16rem; height: 0.23rem;vertical-align: 16px;}
+.body_test .mod-answer .mod-box .M-content .mod-text .tips b img{display: block; font-size: 0; width: 0.16rem; height: 0.23rem;}
 .body_test .mod-answer .mod-box .M-content .mod-text .tips i{font-size: 0.18rem; color: #fff; margin-left: 0.16rem; /*margin-left: -16px;*//*-webkit-transform: scale(.8,.8); -moz-transform: scale(.8,.8); -ms-transform: scale(.8,.8); -o-transform: scale(.8,.8);transform: scale(.8,.8);*/}
 /*遮罩*/
 .M-layer-black-bg{position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, .5); z-index: 9;}
