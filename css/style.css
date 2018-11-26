@@ -189,9 +189,11 @@ html{height: 100%; font-size: 100px; font-family: 'Arial','PingFang SC','Microso
 .body_test .mod-box .M-footer .test_btn:hover{background: url(../images/test_btn.png); background-repeat: no-repeat; background-size: cover;}
 
 /*测试题*/
-.body_test .mod-answer .mod-box .M-content p{ padding: 0.42rem 0 0 0.92rem; color: #727272; font-size: 0.22rem;}
+.body_test .mod-answer .mod-box .M-content p{ position: relative; padding: 0.42rem 0 0 0.92rem; color: #727272; font-size: 0.22rem;}
 .body_test .mod-answer .mod-box .M-content span{margin-left: 0.24rem;}
 .body_test .mod-answer .mod-box .M-content span em{display: inline-block; width: 0.28rem; height: 0.3rem; line-height: 0.30rem; font-size: 0.28rem; background: #F39800; margin-right: 2px; text-align: center; color: #fff;}
+.body_test .mod-answer .mod-box .M-content .icon-play{position: absolute; top: 0.22rem; right: .65rem; z-index: 5; width: 1.6rem; height: 0.82rem;background: url(../images/play_btn_defaul.png); background-size: cover;}
+.body_test .mod-answer .mod-box .M-content .icon-play:hover{background: url(../images/play_btn.png); background-size: cover;}
 .body_test .mod-answer .mod-box .M-content .mod-text{ position: relative; height: 100%; text-align: center;}
 .body_test .mod-answer .mod-box .M-content .mod-text p{ position: absolute; top: 30%;left: 43%;font-size: 0.38rem;color: #666666; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%);}
 .body_test .mod-answer .mod-box .M-content .mod-btn{ position: relative; z-index: 11; text-align: left;margin-top: -18.2%;-moz-transform: translateY(-2px);}
