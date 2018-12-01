@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<title>学邦在线</title>
+<link rel="stylesheet" href="../css/iframe.css">
+<script src="../script/jquery.min.js"></script>
+<script>
+function fontSize() {
+    var w = $(window).width();
+    w = w > 1920 ? 1920 : w;
+    $("html").css("fontSize", w / 19.2 + "px");
+	  if(w<=1200){
+	   $("html").css("fontSize", 1200 / 19.2 + "px");
+	  }
+}
+fontSize();
+window.onresize = fontSize;
+</script>
+</head>
+<body class="body_play">
+<div class="G-main G-mainB">
+		<div class="M-content">
+			<p>考试剩余时间<span><em>0</em><em>5</em><em>:</em><em>2</em><em>6</em></span><a href="#" class="icon-play"></a></p>
+			<div class="mod-text">
+				<p>I like watching TV. </p>
+			</div>
+			<div class="mod-btn">
+				<div class="info info-b">
+					<a href="#" class="icon icon_tape"></a>
+				</div>
+				<div class="info info-c" id="box"><b>本题剩余时间</b><span id="bg"><em id="bgcolor" style="width:60%;"></em></span></div>
+			</div>
+		</div>
+		<div class="M-footer">
+			<a href="#" class="answer_btn"></a>
+		</div>
+	
+</div>
+<script type="text/javascript">
+  (function($){
+      var $box = $('#box');
+      var $bg = $('#bg');
+      var $bgcolor = $('#bgcolor');
+      var statu = false;
+      var ox = 0;
+      var lx = 0;
+      var left = 0;
+      var bgleft = 0;
+       $(document).mouseup(function(){
+        statu = false;
+       });
+       $box.mousemove(function(e){
+        if(statu){
+         left = e.pageX - ox;
+         if(left < 0){
+          left = 0;
+         }
+         if(left > 1000){
+          left = 1000;
+         }
+         $bgcolor.width(left);
+        }
+       });
+       $bg.click(function(e){
+        if(!statu){
+         bgleft = $bg.offset().left;
+         left = e.pageX - bgleft;
+         if(left < 0){
+          left = 0;
+         }
+         if(left > 1000){
+          left = 1000;
+         }
+         $bgcolor.stop().animate({width:left},1000);
+        }
+       });
+ })(jQuery);
+ </script>
+
+</body>
+</html>

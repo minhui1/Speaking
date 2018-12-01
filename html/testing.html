@@ -6,7 +6,19 @@
 	<title>学邦在线</title>
 	<link rel="stylesheet" href="../css/style.css">
 	<script src="../script/jquery.min.js"></script>
-	<script>
+	
+</head>
+<body class="body_test">
+<div class="mod-main">
+	<div class="M-top"></div>
+	<div class="M-bottom"></div>
+	<div class="mod-box mod-iframeA">
+		<iframe src="../html/iframe-testing.html" id="myiframe" onload="changeFrameHeight()" frameborder="0" scrolling="yes" class="iframe" width="100%"></iframe>
+	</div>
+</div>
+</body>
+</html>
+<script>
 	function fontSize() {
         var w = $(window).width();
         w = w > 1920 ? 1920 : w;
@@ -17,13 +29,11 @@
     }
     fontSize();
     window.onresize = fontSize;
-	</script>
-</head>
-<body class="body_test">
-<div class="mod-main">
-	<div class="M-top"></div>
-	<div class="M-bottom"></div>
-	<iframe src="../html/iframe-audio.html" frameborder="0" scrolling="no" class="iframe"></iframe>
-</div>
-</body>
-</html>
+
+    function changeFrameHeight(){
+        var ifm= document.getElementById("myiframe");
+        console.dir(ifm) //null
+        ifm.height=document.documentElement.clientHeight-100+"px";
+        ifm.width=document.documentElement.clientWidth-100+"px";
+    }
+</script>
