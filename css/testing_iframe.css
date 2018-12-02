@@ -1,12 +1,14 @@
 *{margin: 0;padding: 0;}
   ul li{list-style: none;}
   i,em,b{font-style:normal;font-weight:normal;}
+  @media screen and (min-width: 1921px){html{font-size: 120px;}}
   @media screen and (max-width: 1920px){html{font-size: 90px;}}
     @media screen and (max-width: 1640px){html{font-size: 90px;}}
     @media screen and (max-width: 1367px){html{font-size: 70px;}}
   @media screen and (max-width: 800px){html{font-size: 60px;}}
   
-html{height: 100%;-webkit-font-smoothing: antialiased;
+  
+html{height: 100%; -webkit-font-smoothing: antialiased;
     font-family: 'Arial','PingFang SC','Microsoft YaHei';}   
   body{height: 100%;}
   .M-header{margin-bottom: 0.18rem;margin-top: .3rem;text-align: center;}
@@ -36,4 +38,4 @@ html{height: 100%;-webkit-font-smoothing: antialiased;
   .M-footer{text-align: center;margin: .15rem 0;}
   .M-footer .test_btn{display: block;width: 1.78rem;height: 0.58rem;margin: 0 auto;background: url(../images/test_btn_default.png);background-repeat: no-repeat;background-size: cover;}
   .playBox{height: 1.4rem;width: 100%;}
-  @media screen and (min-width: 1920px){html{font-size: 120px;}}
+  /*@media screen and (min-width: 1920px){html{font-size: 120px;}}*/ 
