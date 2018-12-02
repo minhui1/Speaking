@@ -4,36 +4,14 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<title>学邦在线</title>
-	<link rel="stylesheet" href="../css/style.css">
-	<script src="../script/jquery.min.js"></script>
-	<script>
-	function fontSize() {
-        var w = $(window).width();
-        w = w > 1920 ? 1920 : w;
-        $("html").css("fontSize", w / 19.2 + "px");
-		  if(w<=1200){
-		   $("html").css("fontSize", 1200 / 19.2 + "px");
-		  }
-    }
-    fontSize();
-    window.onresize = fontSize;
-
-    function changeFrameHeight(){
-	    var ifm= document.getElementById("myiframe"); 
-	    ifm.height=document.documentElement.clientHeight;
-	}
-	window.onresize=function(){  
-	     changeFrameHeight();  
-	} 
-	</script>
+	<link rel="stylesheet" href="../css/play.css">
 </head>
-<body class="body_test">
-<div class="mod-main mod-answer">
+<body>
+	<div class="mod-main mod-answer">
 	<div class="M-top"></div>
-	<div class="M-bottom"></div>
-	<div class="mod-box mod-iframeC">
-		<iframe src="../html/iframe-answer-tips.html" id="myiframe" onload="changeFrameHeight()" frameborder="0" scrolling="no" class="iframe"></iframe>
+	<div class="mod-box">
+		<iframe src="../html/iframe-answer-tips.html" frameborder="0" scrolling="no" class="iframe"></iframe>
 	</div>
-</div>
+
 </body>
 </html>
