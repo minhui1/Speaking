@@ -36,11 +36,11 @@ body{ overflow-x:hidden;color:#333;-webkit-font-smoothing: antialiased;}
 :-ms-input-placeholder{color: #999;} /* IE浏览器 */
 
 .body_audio,
-.G-main{position: relative; width: 11.47rem ;height: 100%; margin: 0 auto;}
+.G-main{position: relative; /*width: 11.47rem ;height: 9rem;*/ margin: 0 auto;}
 
 .G-main .M-header{margin-bottom: 0.36rem; text-align: center;}
 .G-main .M-header h3{font-size: 0.38rem; color: #fff;}
-.G-main .M-content{width: 100%; height: 100%;/*width: 100%; height: 100%;*/ background: url(../images/testing_txt_bg.png) no-repeat; background-size: 100% 100%;}
+.G-main .M-content{width: 11.47rem; height: auto;/*width: 100%; height: 100%;*/ background: url(../images/testing_txt_bg.png) no-repeat; background-size: 100% 100%;}
 .G-main .M-content ul{display: block;padding: 0.68rem 1.32rem 0; /*-webkit-transform: scale(.9,.9); -moz-transform: scale(.9,.9); -ms-transform: scale(.9,.9); -o-transform: scale(.9,.9); transform: scale(.9,.9);*/}
 .G-main .M-content ul li{margin-bottom: 0.20rem;}
 .G-main .M-content ul li b,
@@ -117,16 +117,34 @@ body{ overflow-x:hidden;color:#333;-webkit-font-smoothing: antialiased;}
 
 
 
-/*@media screen and (min-width: 1680px){
-	html{font-size: 80px; }
-}
-@media screen and (max-width: 1280px){
-	html{font-size: 60px; }
-}
-@media screen and (max-width: 1080px){
-	html{font-size: 50px; }
-}
-*/
+@media (min-width: 1080px){
+/*.FontSize{font-size: 44px; }*/
+} /*>=1024的设备*/
+
+@media (min-width: 1100px) {
+/*.FontSize{font-size: 40px; }*/
+} /*>=1100的设备*/
+@media (min-width: 1280px) {
+/*.FontSize{font-size: 67px; }*/
+} /*>=1280的设备*/
+
+@media (min-width: 1366px) {
+/*.FontSize{font-size: 89px; }*/
+}  
+
+@media (min-width: 1440px) {
+/*.FontSize{font-size: 79px !important;}*/
+} 
+
+@media (max-width: 1680px) {
+/*.FontSize{font-size: 95px; }*/
+} 
+@media (min-width: 1920px) {
+/*.FontSize{font-size: 100px; }*/
+} 
+
+
+
 
 
 

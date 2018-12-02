@@ -148,7 +148,7 @@ html{height: 100%; font-size: 100px; font-family: 'Arial','PingFang SC','Microso
 .body_flex .mod-score .content .mod-right ul li{ font-size: 0.14rem; text-align: left; line-height: 0.26rem; color: #777777;}
 
 /*检测*/
-.body_test{height: 100%; overflow: hidden; }
+.body_test{height: 100%; /*overflow: hidden;*/ }
 .body_test .mod-main{ position: relative;/*min-width: 900px;*/ width: 100%; height: 100%;}
 .body_test .M-top{width: 100%; height: 50%;background:url(../images/testing_bg.png) no-repeat center top;}
 .body_test .M-bottom{width: 100%; height: 50%; background: #ECE6DC;}
@@ -199,7 +199,7 @@ html{height: 100%; font-size: 100px; font-family: 'Arial','PingFang SC','Microso
 /*audio iframe*/
 .body_audio{}
 
-/*.body_test .mod-box .iframe{ width: 11.49rem; height: 9rem; }*/
+/*.body_test .mod-box .iframe{ width: 11.47rem; height: 9rem; }*/
 .body_test .mod-box{position: absolute; top: 51%; left: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%);}
 .mod-iframeA{}
 /*.mod-iframeA{margin-top: 3px;-moz-transform: translateY(2px) scale(1.1,1.1);}*/
