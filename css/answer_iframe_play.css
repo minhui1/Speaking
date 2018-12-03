@@ -45,8 +45,14 @@ body{height: 100%;-webkit-font-smoothing: antialiased;
 .M-content span em{display: inline-block; width: 0.28rem; height: 0.3rem; line-height: 0.30rem; font-size: 0.28rem; background: #F39800; margin-right: 2px; text-align: center; color: #fff;}
 .M-content .icon-play{position: absolute; top: 0.22rem; right: .65rem; z-index: 5; width: 1.6rem; height: 0.82rem;background: url(../images/play_btn_defaul.png); background-size: cover;}
 .M-content .icon-play:hover{background: url(../images/play_btn.png); background-size: cover;}
-.M-content .mod-text{ position: relative; height: 100%; text-align: center;}
-.M-content .mod-text p{ position: absolute; top: 30%;left: 43%;font-size: 0.38rem;color: #666666; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%);}
+.M-content .mod-text{ width: 8.0rem; height: 3.8rem; margin: 0.2rem auto 0.35rem; overflow-y: auto; }
+.M-content .mod-text .m-txt{padding: 0; margin: 0.2rem 0 0.1rem; font-weight: bold;}
+.M-content .mod-text ul{padding: 0;}
+.M-content .mod-text ul li{margin-bottom: 0;}
+.M-content .mod-text dl dt{font-size: 0.22rem; color: #666;}
+.W-radio{display: inline-block; width: 20px; height: 20px; position: relative; }
+.W-radio input[type="radio"]{width: 20px; height: 20px;vertical-align: middle;}
+.W-radio + font{margin-left: 0.05rem; margin-right: 0.35rem; font-size: 0.22rem; color: #666; }
 .M-content .mod-btn{ position: absolute; bottom: 0.209rem; z-index: 11; text-align: left;}
 .M-content .mod-btn .info-b{position: absolute;left: 0.66rem;top: 0;}
 .M-content .mod-btn .info-c{margin-left: 2.0rem; }
